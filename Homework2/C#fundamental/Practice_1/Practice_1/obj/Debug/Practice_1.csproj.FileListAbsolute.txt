@@ -1,0 +1,7 @@
+C:\Users\drago\Desktop\Homework\C#fundamental\Practice_1\Practice_1\bin\Debug\Practice_1.exe.config
+C:\Users\drago\Desktop\Homework\C#fundamental\Practice_1\Practice_1\bin\Debug\Practice_1.exe
+C:\Users\drago\Desktop\Homework\C#fundamental\Practice_1\Practice_1\bin\Debug\Practice_1.pdb
+C:\Users\drago\Desktop\Homework\C#fundamental\Practice_1\Practice_1\obj\Debug\Practice_1.csprojAssemblyReference.cache
+C:\Users\drago\Desktop\Homework\C#fundamental\Practice_1\Practice_1\obj\Debug\Practice_1.csproj.CoreCompileInputs.cache
+C:\Users\drago\Desktop\Homework\C#fundamental\Practice_1\Practice_1\obj\Debug\Practice_1.exe
+C:\Users\drago\Desktop\Homework\C#fundamental\Practice_1\Practice_1\obj\Debug\Practice_1.pdb

@@ -10,6 +10,11 @@ namespace Practice_1.View
 {
     class Menu
     {
+        private const int ENTER_INFO_STUDENTS = 1;
+        private const int DISPLAY_LIST_STUDENT = 2;
+        private const int MEDIUM_POINTS_ABOVE_6 = 3;
+        private const int GET_LIST_SUBJECT = 4;
+        private const int EXIT = 5;
         MenuController menuController = new MenuController();
         public void menu()
         {
@@ -30,26 +35,26 @@ namespace Practice_1.View
                 Console.WriteLine("-----------------------------------------------------------------");
                 switch (chonSo)
                 {
-                    case 1:
+                    case ENTER_INFO_STUDENTS:
                         menuController.nhapDsHocSinh(listUser);
                         break;
-                    case 2:
+                    case DISPLAY_LIST_STUDENT:
                         Console.Clear();
                         menuController.hienDsHocSinh(listUser);
                         break;
-                    case 3:
+                    case MEDIUM_POINTS_ABOVE_6:
                         Console.Clear();
                         menuController.locDsHocSinh(listUser);
                         break;
-                    case 4:
+                    case GET_LIST_SUBJECT:
                         Console.Clear();
                         menuController.layRaCacMonHoc(listUser);
                         break;
-                    case 5:
+                    case EXIT:
                         menuController.toExit(chonSo);
                         break;
                     default:
-                        break;
+                        throw new Exception("Chon chuc nang khong hop le!");
                 }
             } while (isChoose);
         }
